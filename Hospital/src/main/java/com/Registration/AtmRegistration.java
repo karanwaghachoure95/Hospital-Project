@@ -124,7 +124,7 @@ public class AtmRegistration extends BankAbstract {
 				int choice = sc.nextInt();
 
 				if (choice == 1) {
-					sc.nextLine(); // consume newline
+					sc.nextLine(); 
 					System.out.println("Enter 12-digit account number:");
 					String inputAcc = sc.nextLine();
 
