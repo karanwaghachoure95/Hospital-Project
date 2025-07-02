@@ -1,0 +1,1 @@
+Department: Payment, Amount: 200 rupees.
