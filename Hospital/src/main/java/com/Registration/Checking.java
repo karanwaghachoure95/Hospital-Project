@@ -15,14 +15,8 @@ public class Checking extends AtmRegistration {
     }
 
     protected double withdraw(double amount) {
-        System.out.println("-------------------------");
-        System.out.println("Enter the account number:");
-        String accountNumber = sc.nextLine();
-        System.out.println("Enter the password number:");
-        String passWord = sc.nextLine();
-        System.out.println("---------------------------");
 
-        if (Checking.accountNum.equals(accountNumber) && Checking.password.equals(passWord)) {
+        if (Checking.accountNum.equals(accountNum) && Checking.password.equals(password)) {
             if (Checking.balance - amount < 500) {
                 System.out.println("Your balance is not sufficient....");
             } else {
